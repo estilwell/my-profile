@@ -9,7 +9,7 @@ sudo firewall-cmd --reload
 sudo yum install httpd
 
 sudo systemctl start httpd
-sudo systemctl enable httpd
+#sudo systemctl enable httpd
 
 echo "This is a silly script" > /tmp/silly.txt
 
